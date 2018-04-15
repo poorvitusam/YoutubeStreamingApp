@@ -4,8 +4,10 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 
 import reducers from './reducers';
-import SearchBar from './components/search_bar';
+
 import YTSearch from 'youtube-api-search';
+import SearchBar from './components/search_bar';
+import VideoList from './components/video_list';
 
 const API_KEY = 'AIzaSyBNBsABd3oSuDkW__bIOGwUGWd9fvkRBzY';
 const createStoreWithMiddleware = applyMiddleware()(createStore);
@@ -24,6 +26,7 @@ class App extends Component {
 		return (
 		  <div>
 		  	<SearchBar/>
+		  	<VideoList videos={this.state.videos}/>
 		  </div>
 		);
 	}
