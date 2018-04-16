@@ -1,28 +1,13 @@
-# ReduxSimpleStarter
+# Youtube Video Streaming
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This application uses youtube api and react framwork, to stream videos based on the search results.
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+#### Run project
+Open your terminal, change to the project directory to this project after it is downloaded, and:
 
 ```
 > npm install
 > npm start
 ```
-=======
-# youtubeVideoStreaming
+
 
